@@ -63,10 +63,6 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.margin-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
 
 /* Grid */
 .main {
