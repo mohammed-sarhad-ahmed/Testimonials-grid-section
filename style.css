@@ -24,7 +24,7 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: var(--light-gray);
   line-height: 1.3;
-  height: 100vh;
+  height: 100svh;
 }
 /* utility classes */
 .text-align-center {
@@ -50,18 +50,26 @@ body {
 .flex {
   display: flex;
 }
+.grid {
+  display: grid;
+}
 .direction-column {
   flex-direction: column;
 }
-.align-center {
-  align-items: center;
+.justify-items-center {
+  justify-items: center;
 }
-.justify-center {
-  justify-content: center;
+.padding-top-bottom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+.margin-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 /* Grid */
 .main {
-  margin: var(--margin-big) auto;
   width: 90%;
   display: grid;
 }
@@ -157,8 +165,10 @@ h1 {
   font-weight: 600;
 }
 
-.item4 img {
+.item4 img,
+.item1 img {
   border: solid 3px var(--purple);
+  box-shadow: 0 0 100px 15px black;
 }
 /* footer */
 .attribution {
